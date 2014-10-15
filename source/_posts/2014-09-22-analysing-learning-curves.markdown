@@ -8,7 +8,9 @@ categories: tips
 I recently looked over Machine Learning high-flier [Andrew Ng](http://en.wikipedia.org/wiki/Andrew_Ng)'s [Machine Learning course](http://www.coursera.org/course/ml) on [Coursera](http://www.coursera.org/). It's perfect for people who want to use machine learning as a tool, and is also a great primer for people who want to get into machine learning research, though it is far more vocational than theoretical.
 
 Of course, being practical, it has all sorts of useful tips to help you get your methods working well. One such tip is some basic plotting and analysis of the *learning curves* of your current implementation, which can point you towards what to try next if things aren't quite working yet. This analysis can save you a lot of time! I recommend the course, but if you just want to know how to do this analysis then look no further than this blog post.
+
 <!-- more -->
+
 ## Data, model and learning
 For any machine learning problem, you should have some training data, and a model you want to learn, or fit to the data. For example, in this post I'll be using a dataset of [fuel octane rating versus raw materials](http://people.sc.fsu.edu/~jburkardt/datasets/regression/x17.txt), and the model I'll be fitting to this data is a linear function which takes as input the raw material composition, and outputs the real-valued octane rating - this is known as linear regression.
 
