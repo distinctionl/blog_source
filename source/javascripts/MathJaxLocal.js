@@ -13,6 +13,8 @@ MathJax.Hub.Config({
 			TagSide: "right",
   		Macros:
   			{
+  				x: ['\\mathbf{x}'],
+  				params: ['\\boldsymbol{\\Theta}'],
   				b: ['\\overline{#1}',1],
   				h: ['\\widehat{#1}',1],
   				til: ['\\widetilde{#1}',1],
