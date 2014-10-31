@@ -23,7 +23,7 @@ MathJax.Hub.Config({
  				vect:	['\\boldsymbol{\\mathbf{#1}}',1],
  				zeros: ['\\mathbf{0}'],
  				ones: ['\\mathbf{1}'],
-				d: ['\\,d'],
+				d: ['\\,\\mathrm{d}'],
  				T: ['\\mathsf{T}'],
 				argmin: ['\\mathop{\\mathrm{argmin}}'],
 				argmax: ['\\mathop{\\mathrm{argmax}}'],
